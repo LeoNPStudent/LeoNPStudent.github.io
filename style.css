@@ -1,0 +1,65 @@
+header {
+    font-family: "Times New Roman", "Times", "serif";
+}
+
+#personalImage {
+    height: 10rem;
+}
+
+#personalFlag {
+    height: 5rem;
+}
+
+main {
+    font-family: "Times New Roman", "Times", "serif";
+
+}
+
+#footerInThePage {
+    height: 5rem;
+    font-family: 'Times New Roman', 'Times', 'serif';
+    background-color: #1a1a1a;
+}
+
+main aside {
+    border-right: 1px solid #880015;
+}
+
+
+#accountancyDiv {
+    border-right: 1px solid #880015;
+}
+
+#programmingDiv {
+    border-right: 1px solid #880015;
+}
+
+#languagesDiv {
+    border-right: 1px solid #880015;
+}
+
+.card-img-top {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+/* flagCrimson: #880015 */
+
+@media (max-width: 425px) {
+    main aside {
+        border: none;
+    }
+
+    #accountancyDiv {
+        border: none;
+    }
+
+    #programmingDiv {
+        border: none;
+    }
+
+    #languagesDiv {
+        border: none;
+    }
+}
